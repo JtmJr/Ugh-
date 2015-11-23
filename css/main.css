@@ -94,23 +94,99 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@font-face {
+    font-family: "Interstate";
+src:
+    url(http://jmooridianjr.studio.mcad.edu/webdev1/.TTF); 
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+aside {
+    clear; both;
+}
+nav {
+ border: 1px solid gray;
+ overflow: hidden;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    float: right;
+    display: list-item;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+
+}
+header img {
+    float: left;
+    background-color: black;
+}
+section img {
+    
+    background-color: black;
+}
+
+h1 h3{
+    text-transform: uppercase;
+}
+.main-container {
+    overflow: hidden;
+    position: relative;
+}
+.link-column {
+    width: 25%;
+    float: left;
+    position: relative;
+    font-size: small;
+}
+.icons li {
+    display: list-item;
+    padding: 10%;
+}
+
+}
+.news-container {
+
+    clear: both;
+    float: right;
+
+   
+}
+.news-wrap {
+    float: right;
+    background-color: #fff;
+}
+
+#icons li img{
+   
+    margin: 0;
+    padding: 0;
+    top: 0
+    left:10;
+    }
+aside {
+    position: absolute;
+    top: 0;
+    right: 0;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.mast-head {
+    line-height: 3em;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -278,3 +354,11 @@ textarea {
         page-break-after: avoid;
     }
 }
+    .subfooter {
+       padding-top: 20%;
+        line-height: 1em;
+        background-color: #fefefe;
+    }
+    .main-container {
+        background-color: #f5f5f5;
+    }
