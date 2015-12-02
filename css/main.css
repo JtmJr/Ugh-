@@ -107,6 +107,7 @@ src:
 @font-face {
     font-family: "Interstate Light";
 src:
+    url(http://jmooridianjr.studio.mcad.edu/webdev1/wk13/Interstate-Light.TTF);
 }
 html {
     box-sizing: border-box;
