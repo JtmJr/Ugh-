@@ -28,27 +28,30 @@
      <aside class="meta-top">
          <div class="inner">
              <ul>
-                 <li></li>
-                 <li><a href="#" class="btn1"><h5>Other Countries</h5></a></li>
-                 <li><h5>Newsletter</h5> <img src="img/other.png" alt="small globe" class="icon" width="19" height="11"></li>
-                 <li></li>
+                 <li></a></li>
+                 <li><a href="#" class="btn1"><h5>Other Countries</h5><img src="img/other.png" alt="small globe" class="icon" width="19" height="11"></a></li>
+                 <li><a href="#"><h5>Newsletter</h5></a></li>
+                 
                  
             </ul>
            
         </div> 
     </aside>  
     <nav> 
-         <img src="img/Wbr.jpg" width="91" height="54" class="wrangler-logo" alt="Wrangler Logo">
-
+         <a href="#" class="logo"><img src="img/Wbr.jpg" width="91" height="54" class="wrangler-logo" alt="Wrangler Logo"></a>
+        
          <ul>
 
-             <li> <a href="#">MEN <i class="fa fa-sort-desc"></i></a>
-             </li>
+             <li> <a href="#">MEN <i class="fa fa-sort-desc"></i></a></li>
              <li> <a href="#">WOMEN <i class="fa fa-sort-desc"></i></a></li>
              <li> <a href="#">FIT GUIDE <i class="fa fa-sort-desc"></i></a></li>
              <li> <a href="#">ARE YOU READY? <i class="fa fa-sort-desc"></i></a></li>
-             <li> <a href="#">STORE LOCATOR <i class="fa fa-sort-desc"></i></a></li>
+             <li><a href="#">STORE LOCATOR <i class="fa fa-sort-desc"></i></a></li>
         </ul>
+        
+        <form action="http://www.wrangler-europe.com/search" class="nav-search" onsubmit="return checkSearchInput()" novalidate="novalidate" >
+                <input type="text" name="searchterm" class="search-input" placeholder="Search for...">
+              </form>
     </nav>
     <aside class="meta-bottom">
         <ul>
@@ -65,18 +68,25 @@
 
 
      <div class="jumbotron-content">
-        <img src="img/close-copy.png" alt="circle/cloud icon">
+        <div id="cf">
+            <img class="top" src="img/close-copy.png" alt="circle/cloud icon" height="60" width="60">
+            <img class="bottom" src="img/stick.png" alt="circle/orientation pin" height="60" width="60">
+           
+        </div>
+        
+        
         
         <p></p>
         <h1>Minneapolis Ready <img src="img/range-cold-ready.png" alt="snowflake" class="icon"></h1>
-        <h2>Beat this freezing snap with invisible and lightweight insulation</h2> <h2>that doesn't sacrifice style.</h2>
+        <h2>Beat this freezing snap with invisible and lightweight insulation <br> that doesn't sacrifice style.</h2>
 
-        <a href="#" class="btn">Shop Men's <img src="http://www.wrangler-europe.com/static/images/sprites-retina/submit-arrow.png" alt="pointing arrow" width="19" height="11"></a>
+        <a href="#" class="btn">Shop Men's  <img src="http://www.wrangler-europe.com/static/images/sprites-retina/submit-arrow.png" alt="pointing arrow" width="19" height="11"></a>
 
         <a href="#" class="btn">Shop Women's <img src="http://www.wrangler-europe.com/static/images/sprites-retina/submit-arrow.png" alt="pointing arrow" width="19" height="11"></a>
      </div>
-        <img src="http://images-eu.wrangler-europe.com/images/teaser/home/2015/CW36/main/colder-ready.jpg" alt="Background image 1: 2 cold male and female models crossing a bridge--(how symbolic)" 
-        class="jumbotron-bg1" height="555" >  
+
+        <img src="http://images-eu.wrangler-europe.com/images/teaser/home/2015/CW36/main/colder-ready.jpg" alt="Background image 1: 2 cold (male and female) models crossing a bridge." 
+        class="jumbotron-bg1" height="600" >  
     </section>
 
     <section class="page-section jumbotron">
@@ -84,7 +94,7 @@
       <div class="jumbotron-content">
         <h1>Are You Ready?</h1>
         <h2>Find an adventure near you. A whole new world under an hour away.</h2>
-          <a href="#" class="btn">Let's begin<img src="http://www.wrangler-europe.com/static/images/sprites-retina/submit-arrow.png" alt="pointing arrow" width="19" height="11"></a>
+          <a href="#" class="btn2">Let's begin <i class="fa fa-chevron-right"></i></a>
       </div>
         
         <img src="http://images-eu.wrangler-europe.com/images/born-ready/are-you-ready/colder-ready.jpg" alt="Background image 2: Winter bridge and water skyline." 
@@ -94,14 +104,15 @@
    </div>
    <footer>
         <div class="main-container">
+        <div class="left-container">
             <div class="square">
              <h4>Legal</h4>
             <ul class="link-column">
            
-                <li> Privacy Policy</li>
-                <li>Terms of Use</li>
-                <li>Imprint</li>
-                <li>Sitemap</li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></a></a></li>
+                <li><a href="#">Imprint</a></a></li>
+                <li><a href="#">Sitemap</a></li>
             </ul>
             </div>
         
@@ -109,10 +120,10 @@
              <h4>Company</h4>
             <ul class="link-column"> 
            
-                <li>About Us</li>
-                <li>Careers</li>
-                <li>Contact Us</li>
-                <li>Store Locator</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Store Locator</a></li>
             </ul>
            </div>
             <div class="square">
@@ -123,32 +134,37 @@
             <ul class="link-column">
                 
                       
-                    <li><img src="img/instagram.png" width="20" alt="instgram icon"></li>
-                    <li><img src="img/youtube.png" width="20" alt="youtube icon"></li>
-                    <li><img src="img/twitter.png" width="20" alt="twitter icon"></li>
-                    <li><img src="img/facebook.png" width="20" alt="facebook icon"></li>
+                    <li><a href="#"><img src="img/instagram.png"  alt="instgram icon"></a></li>
+                    <li><a href="#"><img src="img/youtube.png"  alt="youtube icon"></a></li>
+                    <li><a href="#"><img src="img/twitter.png"  alt="twitter icon"></a></li>
+                    <li><a href="#"><img src="img/facebook.png"  alt="facebook icon"></a></li>
                
             </ul>
-
+            </div>
            </div>
             </div>
             
+        <div class="right-container">
         <div class=news-wrap>
         <aside class="news-container">
             <div class="mast-head">Newsletter</div>
             <p>Sign Up for Our Newsletter Now</p>
             <form action="https://www.wrangler-europe.com/newsletter" method="post">
             </form>
-            <input type="email" maxlength="50" placeholder="Please enter your email address">
-            <input type="submit">
-            <div class="tickbox">
-                <p>I hereby accept the privaty policy</p>
+            <input type="email" maxlength="75" placeholder="Please enter your email address" class="email">
+            <input type="submit" id="image-button" value="SUBMIT" class="btn"></input>
+            <div class="checkbox">
+              <input type="checkbox" id="a"></input>
+              <label for="a">I hereby accept the privacy policy</label>
+            </div>
+                
             </div>
         </aside>
-           </div>
+        </div>
+        </div>
     </div>
     </footer>
-    <div class="subfooter"></div>
+    
        
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
